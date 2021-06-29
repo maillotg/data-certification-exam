@@ -1,0 +1,7 @@
+{
+    "MEDIAN_AGE": "\nThe median age is associated with a positive effect on the number of crime indidents\n",
+    "T_STAT": "\nIt is a measure of the median age regressor's precision.\n\nt = MEDIAN_AGE_coef / MEDIAN_AGE_std_err\n",
+    "P_VALUE": "\nThe p-value for median age tests the null hypothesis that this feature has no effect on our model\n\nA p-value at 0.128 is not statistically significant at 95% or 90% confidence level\n",
+    "INCREASE": "\nThe number of incidents increases by 11464,8161 with a standard deviation of 408.344 (between 11056.4721 and 11873.1601)\n\nnb_incidents_predicted = prediction = 1 * -2115.1839 + 13580.0000 \n\ninterval = prediction - 408.344, prediction + 408.344\n",
+    "LIMITATIONS": "\nThe variables weren't scalled which explain the big coefficients. Furthermore, we have only 12 observations and didn't use the holdout method to be sure that our model is not overfitted.\n\nEven if it is difficult to use a train/test split here with the number of observations\n"
+}
